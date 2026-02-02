@@ -1,4 +1,12 @@
- p {
+ main p {
     color: blue;
+    font-size: larger
+}
+header p {
+    color: red;
+    font-size: larger
+}
+ h1 {
+    color: yellowgreen;
     font-size: larger
 }
