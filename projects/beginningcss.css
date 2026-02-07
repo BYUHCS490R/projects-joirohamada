@@ -1,0 +1,64 @@
+header {
+    background-color: #EDEDE9;
+}
+
+body {
+  font-family: 'Courier New', Courier, monospace;
+
+  font-size: 16px;
+
+  color: #9C9C9C;
+  background-color: #FFFFFF;
+}
+
+footer {
+    color: #F8F8F8;
+    background-color: #9D9C9E;
+}
+
+
+#title{
+    color: #9C9C9C;
+    font-size: 40px;
+    font-family:Brush Script MT, Lucida Handwriting;
+
+}
+
+#subtitle{
+    color: #9C9C9C;
+    font-size: 40px;
+    font-family:system-ui;
+
+}
+
+body h2{
+    color: #686868;
+    font-size: 30px;
+    font-family: Impact, Papyrus;
+
+}
+
+body h3{
+    color: #9D9B9C;
+    font-size: 25px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.example {
+    color: #828183;
+    font-size: 20px;
+    font-family: Papyrus, Copperplate, fantasy;
+
+
+}
+
+.emphasize {
+    font-size:larger;
+    color: #07010195;
+    font-family:Brush Script MT, Lucida Handwriting;
+}
+
+.questions {
+    background-color: #BEBBBD;
+}
