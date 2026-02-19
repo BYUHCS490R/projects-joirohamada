@@ -4,7 +4,7 @@ body {
 
 header {
     background-color: lightcoral;
-    padding: 50px 100px 150px 10px; /*top right bottom left*/
+    padding: 50px 100px 150px 11px; /*top right bottom left*/
     border: 10px dotted black;
 
 }
