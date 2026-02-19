@@ -5,12 +5,13 @@ body {
 header {
     background-color: lightcoral;
     padding: 50px 100px 150px 11px; /*top right bottom left*/
-    border: 10px dotted black;
+    border: 10px solid black;
 
 }
 
 main {
     background-color: burlywood;
+    border: 10px dotted black
 }
 
 footer {
