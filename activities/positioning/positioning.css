@@ -1,0 +1,19 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.castle {
+    width: 200px;
+    overflow: hidden;
+    border: thin solid #000;
+    float: left;
+}
+
+.castle img {
+    width: 100%;
+}
+
+.clear {
+    clear: both;
+}
+
