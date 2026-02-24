@@ -1,0 +1,91 @@
+header  {
+    background-image: url(puertorico.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    padding: 40px;
+    border: 10px solid black;
+
+    background-origin: padding-box;
+    background-clip: border-box;
+}
+
+
+header h1 {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+    font-style:oblique;
+    text-transform: capitalize;
+    text-shadow: 2px 2px 5px red;
+
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #FFF;
+}
+
+#wrapper {
+    width: 850px;
+    background-color: #FFF;
+    background-image: url(puertoricobeach.jpg);
+    margin: auto;
+    border: 5px solid red;
+    box-shadow: 10px 10px 5px rgba(200, 200, 200, 0.7);
+}
+
+.badbunny {
+    width: 200px;
+    overflow: hidden;
+    border: 5px solid white;
+    float: left;
+    margin-right: 20px;
+    color: #FFF;
+}
+
+.badbunny img {
+    width: 100%;
+}
+
+.floatleft {
+    float: left;
+}
+
+.clear {
+    clear: both;
+}
+
+
+nav a {
+    display: block;
+    background-color: lightblue;
+    color: white;
+    padding: 5px;
+    border-bottom: thin solid white;
+    text-decoration: none; /*no underline */
+}
+
+nav a:hover {
+    text-decoration: underline;
+    background-color: red;
+    color: lightblue;
+}
+
+main h1{
+    text-align: center;
+}
+
+
+main p {
+    padding: 20px;
+    background-color: lightblue;
+    color: red;
+    width: 400px;
+    margin: 20px auto;
+    line-height: 1.5;
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
