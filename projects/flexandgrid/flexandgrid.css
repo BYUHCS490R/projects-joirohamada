@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: rgb(203, 77, 77);
+    color: white;
+
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: beige;
+    padding: 8px;
+}
+
+nav a {
+    display: block;
+    padding: 5px;
+    background-color: cadetblue;
+    color: white;
+    text-decoration: none;
+}
+
+.parent1 {
+    background-color: lightgray;
+    display: flex;
+    gap: 40px;
+}
+
+
+.sidebar{
+    width: 30%;
+}
+
+.parent2 {
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    gap: 5px;
+}
+.card {
+    background-color: cadetblue;
+    color: white;
+    border: thin solid black;
+    border-radius: 5px;
+    width: 150px;
+}
+
+.card img {
+    width: 100%;
+}
+
+.parent3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: beige;
+
+}
+
+.parent3 a {
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
