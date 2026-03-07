@@ -75,6 +75,37 @@ nav a:hover {
     width: 100%;
 }
 
+@media ONLY screen AND (max-width: 600px) {
+    body {
+        background-color: brown;
+        margin-top: 200px;
+
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+    nav a {
+        border-bottom: thin solid black;
+    }
+
+   .row {
+        flex-flow: column nowrap;
+        align-items: center;
+    }
+
+    .card {
+        width: 95%;
+    }
+
+    .main-card {
+        order: -1;
+    }
+    
+    
+}
+
 @media ONLY print {
     body {
         font-family: 'Courier New', Courier, monospace;
