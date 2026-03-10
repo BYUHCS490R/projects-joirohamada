@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: beige;
+}
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: green;
+}
+
+nav a {
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    background-color: red;
+}
+
+.parent1 {
+    display: flex;
+}
+.sidebar {
+    width: 30%;
+}
+
+.familia img {
+    width: 150px;
+}
+
+.papas {
+    width: 33%;
+}
+.papas img {
+    width: 100%;
+}
+
+.maaya {
+    width: 33%;
+}
+.maaya img {
+    width: 100%;
+}
+
+.meimirei {
+    width: 33%;
+}
+.meimirei img {
+    width: 100%;
+}
+
+.parent2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px;
+}
+
+@media print {
+
+    nav {
+        display: none;
+    }
+
+    header {
+        display: none;
+    }
+
+    footer {
+        display: none;
+    }
+
+}
+
+@media (max-width: 700px) {
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .parent1 {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        width: 100%;
+    }
+
+    main {
+        width: 100%;
+    }
+
+}
+
