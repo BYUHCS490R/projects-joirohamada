@@ -61,6 +61,11 @@ nav a:hover {
     gap: 5px;
 }
 
+.parent2 img{
+    width: 100%;
+
+}
+
 @media print {
 
     nav {
@@ -95,6 +100,10 @@ nav a:hover {
     main {
         width: 100%;
     }
+    
+    .parent2 {
+    grid-template-columns: 1fr;
+}
 
 }
 
