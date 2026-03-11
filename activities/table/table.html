@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <link rel="stylesheet" href="table.css">
+</head>
+<body>
+    <header>
+        <h1>Table</h1>
+    </header>
+    <main>
+        <h2>Class Schedule</h2>
+        <table border="10">
+            <caption>Class Schedule</caption>
+            <thead>
+                <tr>
+                    <th>Course Number</th>
+                    <th>Title</th>
+                    <th>Time</th>
+                    <th>Location</th>
+                    <th>Credits</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>IT 240</td>
+                    <td rowspan="2">Web Design</td>
+                    <td>MWF 11AM</td>
+                    <td>P2</td>
+                    <td rowspan="3">3</td>
+                </tr>
+                
+                <tr>
+                    <td>IT 240</td>
+                    <td>MWF 12 PM</td>
+                    <td>P2</td>
+                </tr>
+                <tr>
+                    <td>CS 210</td>
+                    <td>Computer Organization</td>
+                    <td>MWF 12 PM</td>
+                    <td>P2</td>
+                </tr>
+                <tr>
+                    <th colspan="5">Fall 2025</th>
+                </tr>
+                <tr>
+                    <td>IT 240</td>
+                    <td>Web Design</td>
+                    <td>MWF 12 PM</td>
+                    <td>P2</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>CS 210</td>
+                    <td>Computer Organization</td>
+                    <td>MWF 12 PM</td>
+                    <td>P2</td>
+                    <td>3</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th colspan="4" id="totalcredit">Total credits</th>
+                    <td headers="totalcredit">15</td>
+                </tr>
+            </tfoot>
+        </table>
+        <p>When do you use a table? When we have data that we want to present. </p>
+        <p>When do you not use a table? we do not use a table for page layout, only be used for data</p>
+        <p>When do you need to do extra work for table accessibility? when we want to add extra features like covering the columns or rows in two or more spaces in the table.</p>
+    </main>
+    <footer>
+        <p>&copy; Joiro Hamada 2026</p>
+    </footer>
+    
+</body>
+</html>
