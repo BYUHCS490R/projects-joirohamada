@@ -20,21 +20,23 @@ nav {
 }
 
 .maincontent {
-    width: 70%;
+    flex: 3;
 }
 
 .sidebar {
+    flex: 1;
     margin-left: 20px;
     background-color: brown;
     color: whitesmoke;
+    padding: 20px;
 
 }
 
 table {
     width: 100%;
     background-color: cadetblue;
-    border: 10px solid;
-    border-spacing: 5px;
+    border: 5px solid;
+    border-collapse: collapse;
     text-align: center;
     margin: auto;
 
@@ -43,7 +45,7 @@ table {
 caption {
     font-weight: bold;
     text-transform: capitalize;
-    text-decoration: wavy;
+    text-decoration: underline;
 }
 
 thead {
@@ -53,4 +55,8 @@ thead {
 tbody tr:nth-of-type(odd) {
     background-color: azure;
 
+}
+
+tr {
+    height: 60px;
 }
