@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:bisque ;
+}
+
+header {
+    background-color: aliceblue;
+    padding: 10px;
+}
+nav {
+    background-color: antiquewhite;
+    color: black;
+}
+
+
+
+.parent1 {
+    display: flex;
+    padding: 20px;
+}
+
+.maincontent {
+    width: 70%;
+}
+
+.sidebar {
+    margin-left: 20px;
+    background-color: brown;
+    color: whitesmoke;
+
+}
+
+table {
+    width: 100%;
+    background-color: cadetblue;
+    border: 10px solid;
+    border-spacing: 5px;
+    text-align: center;
+    margin: auto;
+
+}
+
+caption {
+    font-weight: bold;
+    text-transform: capitalize;
+    text-decoration: wavy;
+}
+
+thead {
+    background-color: blue;
+    color: aliceblue;
+}
+tbody tr:nth-of-type(odd) {
+    background-color: azure;
+
+}
