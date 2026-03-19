@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <header>
+        <h1>JOIROS WEB DESIGN</h1>
+    </header>
+    <main>
+        <form action="formprocs.html" method="post">
+            <div>
+                <label for="fname">Name:</label>
+                <input type="text" name="fullname" id="fname" required value="John">
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" placeholder="name@email.com">
+            </div>
+            <div>
+                <label for="password">Password:</label>
+                <input type="password" name="pass" id="password">
+            </div>
+            <div>
+                <label for="state">State:</label>
+                <select name="state" id="state">
+                    <option value="blank"> ---- </option>
+                    <option value="CA">California</option>
+                    <option value="HI" selected>Hawaii</option>
+                    <option value="UT">Utah</option>
+                </select>
+            </div>
+            <div>
+                <label for="comments">Comments</label>
+                <textarea name="comments" id="comments">Pre-filled in</textarea>
+            </div>
+            <div>
+                Gender:
+                <label><input type="radio" name="gender" value="male">Male</label>
+                <label><input type="radio" name="gender" value="female" checked>Female</label>
+            </div>
+            <div>
+                <label><input type="checkbox" name="remember" value="male" checked>Remember me?</label>
+            </div>
+            <div>
+                <input type="submit" value="Sign Up">
+            </div>
+        </form>
+        <br>
+        <hr>
+        <p>The form tag has an "action" attribute. What does it do? The action attribute indicates where we are going to send the data we are entering, or, in other words, it tells us where all that information is going.</p>
+        <p>The form tag has a "method" attribute. What does it do? It specifies how the form data will be sent.</p>
+        <p>What is the difference between a "POST" and a "GET"? 
+            post = something changes. (on the serve in database)
+            get = search/filter/sort
+        </p>
+
+    </main>
+    <footer>
+        <p>&copy; Joiro Hamada 2026</p>
+    </footer>
+    
+</body>
+</html>
