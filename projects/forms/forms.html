@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="forms.css">
+</head>
+<body>
+    <header>
+        <h1>Joiro Hamada's Form</h1>
+    </header>
+    <main>
+        <form action="formprocs.html" method="post">
+            <fieldset>
+                <legend>Tell me about yourself!</legend>
+                <div class="form-row">
+                    <label for="fname">Name:</label>
+                    <input type="text" name="fullname" id="fname" required>
+                </div>
+                <div class="form-row">
+                    <label for="birthday">Birthday:</label>
+                    <input type="date" name="birthday" id="birthday">
+                </div>
+                <div class="form-row">
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" required placeholder="name@gmail.com">
+                </div>
+                <div class="form-row">
+                    <label for="password">Password:</label>
+                    <input type="password" name="pass" id="password">
+                </div>
+                <div class="form-row">
+                    <label for="state">State:</label>
+                    <select name="state" id="state">
+                        <option value="blank"> ------ </option>
+                        <option value="CA">California</option>
+                        <option value="HI">Hawaii</option>
+                        <option value="UT">Utah</option>
+                        <option value="OH">Ohio</option>
+                        <option value="Others">Others</option>
+                    </select>
+                </div>
+                <div class="form-row">
+                    <label for="comments">Favorite movie:</label>
+                    <textarea name="comments" id="comments">Pre-filled in</textarea>
+                </div>
+                <div class="form-row">
+                    <label>Gender:</label>
+                    <div>
+                        <label><input type="radio" name="gender" value="male"> Male</label>
+                        <label><input type="radio" name="gender" value="female"> Female</label>
+                    </div>
+                </div>
+                <div class="check-row">
+                    <div class="spacer"></div>
+                    <label><input type="checkbox" name="remember" value="yes" checked>Are you a meember?</label>
+                </div>
+                <div class="form-row">
+                    <div class="spacer"></div>
+                    <input type="submit" value="Sign Up">
+                </div>
+
+
+            </fieldset>
+        </form>
+
+    </main>
+    <footer>
+        <p>&copy; 2026 Joiro Hamada</p>
+    </footer>
+
+</body>
+</html>
