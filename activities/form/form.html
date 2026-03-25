@@ -11,7 +11,7 @@
         <h1>JOIROS WEB DESIGN</h1>
     </header>
     <main>
-        <form action="formprocs.html" method="post">
+        <form action="formprocs.html" method="post" id="myForm">
             <fieldset>
             <legend>Sign Up</legend>
             <div class="form-row">
@@ -25,6 +25,10 @@
             <div class="form-row">
                 <label for="password">Password:</label>
                 <input type="password" name="pass" id="password">
+            </div>
+            <div class="form-row">
+                <label for="age">Age:</label>
+                <input type="text" name="pass" id="age">
             </div>
             <div class="form-row">
                 <label for="state">State:</label>
@@ -65,13 +69,48 @@
 <br>
         <p>What are different ways to style your form? We can style our forms with CSS chnging colors, fonts, borders etc, and by using pseudo-classes like focus. We can also use Flex to organize our elements.</p>
         <p>How does flex help for both Desktop and Mobile phones? Flex is very useful because it allows elements to be organized in a row on desktop and in a column on mobile mking the form more organized for different screens.</p>
-
-
+<br>
+        <h2>engagement JavaScript</h2>
+        <p>What is JavaScript? How did it get its name? It is a programming language. </p>
+        <p>What are the two ways you can run JavaScript? by using node.js.</p>
+        <p>What was the most popular front-end js library? JQuery.js </p>
+        <p>What is the most popular front-end js library today? React (open source) but Facebook is the main company using them.
+        </p>
 
     </main>
     <footer>
         <p>&copy; Joiro Hamada 2026</p>
     </footer>
+    <script>
+        document.getElementById("myForm").addEventListener("submit",function(event) {
+            event.preventDefault();
+            //alert("Form Submitted");
+
+            const fullname = document.getElementById("fname").value;
+            const email = document.getElementById("email").value;
+            const password = document.getElementById("password").value;
+            const age = document.getElementById("age").value;
+
+            if (!fullname || !email) {
+                alert("You need a name and email.");
+                return;
+            }
+
+            if (!age || age <18) {
+                alert("You need to be 18");
+                return;
+            }
+
+            const formData = {
+                name: fullname,
+                email: email,
+                password: password,
+                age: age
+            };
+
+            console.log(formData);
+        });
+    </script>
     
 </body>
 </html>
