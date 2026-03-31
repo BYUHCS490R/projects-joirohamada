@@ -11,7 +11,8 @@
         <h1>Joiro Hamada's Form</h1>
     </header>
     <main>
-        <form action="formprocs.html" method="post">
+        <div id="message"></div>
+        <form action="formprocs.html" method="post" id="myForm">
             <fieldset>
                 <legend>Tell me about yourself!</legend>
                 <div class="form-row">
@@ -20,7 +21,7 @@
                 </div>
                 <div class="form-row">
                     <label for="birthday">Birthday:</label>
-                    <input type="date" name="birthday" id="birthday">
+                    <input type="number" name="birthday" id="birthday">
                 </div>
                 <div class="form-row">
                     <label for="email">Email:</label>
@@ -60,15 +61,13 @@
                     <div class="spacer"></div>
                     <input type="submit" value="Sign Up">
                 </div>
-
-
             </fieldset>
         </form>
-
     </main>
     <footer>
         <p>&copy; 2026 Joiro Hamada</p>
     </footer>
+    <script src ="forms.js"></script>
 
 </body>
 </html>
