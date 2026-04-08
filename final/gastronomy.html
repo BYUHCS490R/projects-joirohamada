@@ -22,6 +22,54 @@
         <img src="3chilaquiles.jpg" alt="Chilaquiles" width="100%">
         <img src="3tamales.jpeg" alt="Tamales" width="100%">
         <img src="3enchiladas.jpg" alt="Enchiladas" width="100%">
+        <div id="message"></div>
+        <form action="formprocs.html" method="post" id="myForm">
+            <fieldset>
+                <legend>What is your fav Mexican food?</legend>
+                <div class="form-row">
+                    <label for="fname">Name:</label>
+                    <input type="text" name="fullname" id="fname" required>
+                </div>
+                <div class="form-row">
+                    <label for="nationality">nationality:</label>
+                    <input type="text" name="nationality" id="nationality" required>
+                </div>
+                <div class="form-row">
+                    <label for="birthday">How old are you?:</label>
+                    <input type="number" name="age" id="age">
+                </div>
+                <div class="form-row">
+                    <label for="comments">Favorite Mexican Dish:</label>
+                    <textarea name="comments" id="comments">Pre-filled in</textarea>
+                </div>
+                <div class="form-row">
+                    <label>Do you like spicy food?:</label>
+                    <div>
+                        <label><input type="radio" name="spicy" value="yes"> Yes</label>
+                        <label><input type="radio" name="spicy" value="no"> No</label>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <label for="spicelevel">Spicines level:</label>
+                    <select name="spicelevel" id="spicelevel">
+                        <option value="blank"> ------ </option>
+                        <option value="Mild">Mild</option>
+                        <option value="Medium">Medium</option>
+                        <option value="Hot">Hot</option>
+                        <option value="Extra Hot">Extra Hot</option>
+                        <option value="Deadly">Deadly</option>
+                    </select>
+                </div>
+                <div class="check-row">
+                    <div class="spacer"></div>
+                    <label><input type="checkbox" name="remember" value="yes" checked>Are you vegetarian?</label>
+                </div>
+                <div class="form-row">
+                    <div class="spacer"></div>
+                    <input type="submit" value="Sign Up">
+                </div>
+            </fieldset>
+        </form>
     </main>
     <footer>
         <p>&copy; 2026 Joiro Hamada</p>
