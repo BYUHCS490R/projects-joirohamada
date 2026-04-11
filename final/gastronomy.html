@@ -8,7 +8,7 @@
 </head>
 <body>
     <header>
-        <h2>Mexican Cuisine</h2>
+        <h1>Mexican Cuisine</h1>
     </header>
     <nav>
         <a href="index.html">Homepage</a>
@@ -16,31 +16,69 @@
         <a href="gastronomy.html" class="active">Gastronomy</a>
         <a href="destinations.html">Destinations</a>
         <a href="history.html">History</a>
+        <a href="music.html">Music</a>
     </nav>
     <main>
-        <img src="3tacos.jpg" alt="Tacos" width="100%">
-        <img src="3chilaquiles.jpg" alt="Chilaquiles" width="100%">
-        <img src="3tamales.jpeg" alt="Tamales" width="100%">
-        <img src="3enchiladas.jpg" alt="Enchiladas" width="100%">
+        <h2>Flavors of Mexico</h2>
+        <p>Mexican food is worldwide known for being one of the most delicious and enjoyable to eat. The country's history and culture are deeply interconnected with the gastronomy, combining influences from Mesoamerica and Europe.</p>
+        <p>Let's not forget to mention that corn is the foundation of many dishes. And spicy food is one of the specialties of Mexican cuisine; tortillas and corn made food are a daily base for millions of Mexicans.</p>
+        <p>Next, I would like to present to you a list of the most famous dishes in Mexico.</p>
+        <br>
+        <h2>Tacos</h2>
+        <p>This dish consists of a tortilla(folded or rolled) and it contains some type of filling; typically, this is a meat (beef is commonly added), along with vegetables such as raw onion, cilantro, and lime, as well as hot sauces (green and red) and guacamole.</p>
+        <img src="3tacos.jpg" alt="Tacos">
+        <p>
+        Image source: 
+        <a href="https://commons.wikimedia.org/wiki/File:Variety_of_tacos.jpg">Source</a>
+        </p>
+        <br>
+        <h2>Chilaquiles</h2>
+        <p>Chilaquiles are the essential iconic Mexican breakfast, and they are usually prepared at home.</p>
+        <p>There are two types of chilaquiles: green chilaquiles and red chilaquiles. They are prepared using “totopos” (tortilla chips), which are then bathed in sauce. To add even more flavor, we also top them with chicken, cream, cheese, rice, and fried eggs.</p>
+        <img src="3chilaquiles.jpg" alt="Chilaquiles">
+        <p>
+        Image source: 
+        <a href="https://www.flickr.com/photos/giffordclan/3323686450">Source</a>
+        </p>
+        <br>
+        <h2>Tamales</h2>
+        <p>Tamales are one of the oldest and most famous dishes in Mexico. The word "tamal" comes from the indigenous Nahuatl language, meaning "wrapped."</p>
+        <p>To prepare tamales, we need to use corn masa and spread it onto a dried banana leaf. Inside, some type of meat with sauce is placed, and they are then steamed. Tamales are usually accompanied by a drink similar to hot chocolate called atole.</p>
+        <img src="3tamales.jpeg" alt="Tamales">
+        <p>
+        Image source: 
+        <a href="https://visitoxnard.com/directory/oxnard-tamale-festival/">Source</a>
+        </p>
+        <br>
+        <h2>Enchiladas</h2>
+        <p>Enchiladas consist of corn tortillas cooked in oil, bathed in a type of sauce, and filled with chicken, meat, or cheese. They are accompanied by lettuce, sour cream, cheese, and raw onion.</p>
+        <p>There are various ways to present them: green, red, or Swiss enchiladas, enmoladas, enchiladas potosinas, and so on.</p>
+        <img src="3enchiladas.jpg" alt="Enchiladas">
+        <p>
+        Image source:
+        <a href="https://commons.wikimedia.org/wiki/File:Enchiladas-rojas.jpg">Source</a>
+        </p>
+
+    
         <div id="message"></div>
         <form action="formprocs.html" method="post" id="myForm">
             <fieldset>
                 <legend>What is your fav Mexican food?</legend>
                 <div class="form-row">
-                    <label for="fname">Name:</label>
-                    <input type="text" name="fullname" id="fname" required>
+                    <label for="name">Name:</label>
+                    <input type="text" name="fullname" id="name" required>
                 </div>
                 <div class="form-row">
                     <label for="nationality">nationality:</label>
                     <input type="text" name="nationality" id="nationality" required>
                 </div>
                 <div class="form-row">
-                    <label for="birthday">How old are you?:</label>
+                    <label for="age">How old are you?:</label>
                     <input type="number" name="age" id="age">
                 </div>
                 <div class="form-row">
                     <label for="comments">Favorite Mexican Dish:</label>
-                    <textarea name="comments" id="comments">Pre-filled in</textarea>
+                    <textarea name="comments" id="comments"></textarea>
                 </div>
                 <div class="form-row">
                     <label>Do you like spicy food?:</label>
@@ -62,7 +100,7 @@
                 </div>
                 <div class="check-row">
                     <div class="spacer"></div>
-                    <label><input type="checkbox" name="remember" value="yes" checked>Are you vegetarian?</label>
+                    <label><input type="checkbox" name="remember" value="yes">Are you vegetarian?</label>
                 </div>
                 <div class="form-row">
                     <div class="spacer"></div>
@@ -74,6 +112,6 @@
     <footer>
         <p>&copy; 2026 Joiro Hamada</p>
     </footer>
-    
+    <script src="form.js"></script>
 </body>
 </html>

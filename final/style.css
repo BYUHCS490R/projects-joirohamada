@@ -3,6 +3,25 @@ body {
     background-color:beige;
 }
 
+header {
+    background-color: green;
+    color: white;
+    text-align: center;
+    top: 0;
+}
+
+header h1, header h2{
+    margin: 0;
+    padding: 20px;
+}
+
+img {
+    max-width: 500px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
 nav {
     display: flex;
     justify-content: space-evenly;
@@ -89,18 +108,31 @@ input[type="submit"] {
     border-radius: 10px;
 }
 
+iframe {
+    display: block;
+    margin: auto;
+}
+
 @media ONLY screen AND (max-width: 700px) {
     nav {
         flex-direction: column;
         align-items: center;
+        font-size: larger;
+    }
+
+    legend {
+        font-size: larger;
     }
     
     .form-row, .check-row {
         flex-direction: column;
+        font-size: larger;
+        
     }
 
     .form-row label, .spacer {
         text-align: left;
+
     }
 
     input[type="submit"] {
